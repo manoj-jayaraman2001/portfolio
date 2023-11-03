@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+  background-image: radial-gradient(
+    circle,
+    #002e74,
+    #005081,
+    #006b7e,
+    #59827e,
+    #8e9791
+  );
+}
+.container{
+  min-height: calc(100vh - 155px);
+}
+.icon{
+  width: 30px !important;
+  height: 30px !important;
+  color: white !important;
+  cursor: pointer;
+}

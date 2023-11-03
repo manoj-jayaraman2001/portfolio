@@ -1,0 +1,95 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid whitesmoke;
+  border-radius: 12px;
+  h3 {
+    color: #8df713;
+    font-weight: 400;
+    margin: 0 auto;
+    width: fit-content;
+    font-family: "Agbalumo", "sans-serif";
+  }
+
+  img {
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+  }
+}
+
+.project-content {
+  color: white;
+  //   max-height: 200px;
+
+  .desc {
+    font-family: "Karla", "sans-serif";
+  }
+  .project-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+  }
+  .skill-badge {
+    height: fit-content;
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    color: #005081;
+    font-family: "Inter", "sans-serif";
+    font-size: 11.5px;
+    font-weight: 600;
+    border-radius: 12px;
+  }
+}
+
+.project-info {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  
+  .project-links {
+    margin-left: auto;
+    align-items: center;
+  }
+}
+
+.creds {
+  display: flex;
+  flex-direction: column;
+  font-family: "Karla", "sans-serif";
+}
+
+.project-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  // .link-ico {
+  //     color: #005081 !important;
+  //     transition: color 0.3s ease-in-out !important;
+  // }
+  // .link-ico:hover{
+  //     color: #8df713 !important;
+  // }
+  a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 13.5px;
+    font-family: "Karla", "sans-serif";
+    color: #005081;
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  a:hover {
+    // color: white;
+    background-color: #8df713;
+  }
+}

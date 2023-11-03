@@ -1,0 +1,17 @@
+.projects {
+  width: 90%;
+  min-height: calc(100vh - 155vh);
+  margin: 2% auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 50px;
+}
+
+
+@media (max-width: 446px) {
+    .projects{
+    
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+    
+}
