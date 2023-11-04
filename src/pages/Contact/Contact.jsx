@@ -46,16 +46,16 @@ const Contact = () => {
       <div>
         <h2>Find Me Online</h2>
         <div className="social-links">
-          <a href="https://www.facebook.com/manoj.jayaraman.1">
+          <a href="https://www.facebook.com/manoj.jayaraman.1" target="_blank">
             <Facebook className="icon" />
           </a>
-          <a href="https://instagram.com/manoj_jayaraman?igshid=NzZlODBkYWE4Ng==">
+          <a href="https://instagram.com/manoj_jayaraman?igshid=NzZlODBkYWE4Ng==" target="_blank">
             <Instagram className="icon"/>
           </a>
-          <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FManojJayaraman4">
+          <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FManojJayaraman4" target="_blank">
             <Twitter className="icon" />
           </a>
-          <a href="https://www.linkedin.com/in/manoj-jayaraman-37694818b/">
+          <a href="https://www.linkedin.com/in/manoj-jayaraman-37694818b/" target="_blank">
             <LinkedIn className="icon"/>
           </a>
         </div>
