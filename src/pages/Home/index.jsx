@@ -28,7 +28,7 @@ const Home = () => {
       <div className="btns">
         <Link to="contact">Contact me</Link>
         <a
-          href="https://drive.google.com/file/d/1fqbAoHv8wjXq9crw_76N0_yS0Tym_rzy/view?usp=sharing"
+          href="https://drive.google.com/file/d/1M-bJTNXzNhp8gEGjryxzG-1jKQe8qf4_/view?usp=sharing"
           target="_blank"
         >
           View Resume
