@@ -5,16 +5,6 @@ import reserve from "../../assets/reserve.webp";
 import getsubs from "../../assets/getsubs.webp";
 export const projects = [
   {
-    name: "Bus Reserve",
-    img: reserve,
-    description:
-      " An online platform designed for reserving bus tickets with integrated Stripe payment. This website offers an intuitive interface for searching, filtering, seat selection, and secure booking of bus trips.",
-
-    skills: ["React.js", "CSS", "Redux", "Node.js", "Express.js", "MongoDB"],
-    github: "https://github.com/manoj-jayaraman2001/bus-reserve.git",
-    live: "",
-  },
-  {
     name: "Connectio",
     img: connectio,
     description:
@@ -27,10 +17,21 @@ export const projects = [
       "Express.js",
       "MongoDB",
     ],
-    auth_email: "manoj@email.com",
-    auth_password: "12345",
+    auth_email: "manojjayaraman1234@gmail.com",
+    auth_password: "manoj",
     github: "https://github.com/manoj-jayaraman2001/connectio-socialmedia.git",
     live: "https://connectio-socialmedia.vercel.app/",
+  },
+  {
+    name: "Bus Reserve",
+    img: reserve,
+    description:
+      " An online platform designed for reserving bus tickets with integrated Stripe payment. This website offers an intuitive interface for searching, filtering, seat selection, and secure booking of bus trips.",
+
+    skills: ["React.js", "CSS", "Redux", "Node.js", "Express.js", "MongoDB"],
+    github: "https://github.com/manoj-jayaraman2001/bus-reserve.git",
+    live: "",
+    onprogress: true
   },
   {
     name: "CryptoPedia",

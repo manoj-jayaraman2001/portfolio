@@ -51,7 +51,7 @@
   display: flex;
   margin-top: 20px;
   flex-wrap: wrap;
-  
+
   .project-links {
     margin-left: auto;
     align-items: center;
@@ -75,6 +75,7 @@
   // .link-ico:hover{
   //     color: #8df713 !important;
   // }
+
   a {
     display: flex;
     gap: 5px;
@@ -92,4 +93,19 @@
     // color: white;
     background-color: #8df713;
   }
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+  height: fit-content;
+  border-radius: 6px;
+  align-self: center;
+  padding: 4px;
+  margin: 0;
+  font-size: 12.5px;
+  color: black;
+  font-weight: 600;
+  font-family: "Karla", "sans-serif";
 }

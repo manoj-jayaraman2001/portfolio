@@ -17,6 +17,7 @@ const Projects = () => {
             auth_password={project.auth_password}
             link={project.live}
             github={project.github}
+            onprogress = {project.onprogress}
           />
         );
       })}

@@ -9,9 +9,10 @@ const Home = () => {
         I'm <span>Manoj Jayaraman</span>
       </h3>
       <p>
-        I'm a Full Stack Developer, driven by a strong passion for web
-        development. My journey in this field is marked by a relentless pursuit
-        of knowledge and a commitment to crafting innovative digital solutions
+        I am a passionate Full stack web developer with expertise in the MERN
+        stack. I bring a strong commitment to crafting robust and scalable
+        solutions. Currently seeking opportunities to contribute my skills and
+        enthusiasm to an innovative organization.
       </p>
       <div className="social-links">
         <a href="https://github.com/manoj-jayaraman2001" target="_blank">
