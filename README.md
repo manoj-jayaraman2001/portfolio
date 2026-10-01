@@ -1,8 +1,20 @@
-# React + Vite
+# Manoj Jayaraman — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Single-page portfolio built with React + Vite. No UI framework; plain CSS with light/dark themes.
 
-Currently, two official plugins are available:
+## Develop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+npm run dev
+```
+
+## Edit content
+
+Everything (bio, experience, projects, skills, certifications) lives in `src/content.js`.
+Replace the `[bracketed]` placeholders, and add flagship projects to the `projects` array —
+the Projects section renders cards automatically.
+
+## Deploy
+
+`vercel.json` rewrites are no longer required (single page), but harmless on Vercel.
